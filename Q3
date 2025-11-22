@@ -1,0 +1,11 @@
+# Create and write to a text file
+
+
+f = open('myfile.txt', 'w') # open() with "w" creates the file (or overwrites if it already exists)
+
+# write() adds text to the file
+
+f.write("This is some text written\n")
+f.write("Python makes file handling easy\n")
+
+f.close() # close() is important to save the file
