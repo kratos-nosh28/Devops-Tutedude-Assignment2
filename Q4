@@ -1,0 +1,9 @@
+# Read from a text file
+
+# open the file in read mode
+file = open("myfile.txt", "r")
+
+content = file.read() # read the entire content of the file
+
+print(content) # print the entire file content
+file.close() #closing the file
